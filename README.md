@@ -1,4 +1,8 @@
-# Frequency and Position Analysis
+# Wordle Solver
+
+This algorithm is designed to solve the game known as [Wordle](https://www.powerlanguage.co.uk/wordle/). It works by going through all the possible words and getting the frequency of each letter and the frequency of their positon in the word. This means that each word can be assigned a score based on the amount of common letters it has and where those letter are positioned allowing it to eliminate the most words possible with the least amount of tries.
+
+## Frequency and Position Analysis
 
 
 ```python
