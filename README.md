@@ -137,11 +137,11 @@ for i in range(6):
 
 # Performance Testing
 
-- Average amount of guesses 4.227
-- Maximum amount of guesses 7. 
-- Minimum amount of guesses 1
-- Guessed 5563 out of 5757 correctly with a success rate if 96.63%
-- The standard deviation is 1.15
+- Average amount of guesses 4.502282641777417
+- Max amount of guesses 7. 
+- Min amount of guesses 1
+- Guessed 9857 out of 10657 correctly with a success rate if 92.49%
+- The standard deviation is 1.20
 
 
 ```python
@@ -178,5 +178,12 @@ print(f"Max amount of guesses {max(correct_guesses)}. \nMin amount of guesses {m
 print(f"Guessed {len(correct_guesses)} out of {len(words)} correctly with a success rate if {(len(correct_guesses)/len(words))*100:.2f}%")
 print(f"The standard deviation is {np.std(correct_guesses):.2f}")
 ```
+
+    Average amount of guesses 4.502282641777417
+    Max amount of guesses 7. 
+    Min amount of guesses 1
+    Guessed 9857 out of 10657 correctly with a success rate if 92.49%
+    The standard deviation is 1.20
+
 
 
